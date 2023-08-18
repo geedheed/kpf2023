@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* styles.css */
+  nav {
+    background-color: #111;
+    color: white;
+    padding: 25px 50px;
+  }
+  
+  .navTop {
+font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #FFFFFE;
+font-weight: 700;
+text-decoration: 
+font-style normal;
+font-variant: normal;
+text-transform: uppercase;
+  }
+    .navTop a {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 2px 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: right;
+    cursor: pointer; 
+  }
+  
+  .navTop a:hover {
+    background-color: #7b7a7d;
+    color: rgb(246, 243, 243);
+  }
+  
+  .navTop a.active {
+    background-color: #716c6c;
+    color: rgb(31, 16, 250);
+  }
+  .session {
+    background-color: #ddd;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .session h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: rgb(215, 112, 34);
+  }
+  
+  .session h2 {
+    font-size: 16px;
+    text-align: center;
+    padding-inline-start: 1px 3px;
+  }
+  
+  .session a {
+    color: white;
+    text-decoration: none;
+    padding: 1px 2px;
+    background-color: rgb(54, 164, 164);
+    text-align: center;
+  }
+  .session a:last-child {
+    color: white;
+    text-decoration: none;
+    padding: 1px 2px;
+    background-color: darkolivegreen;
+    text-align: center;
+  }
+  .session a:hover {
+    background-color: #7b7a7d;
+    color: rgb(246, 243, 243);
+  }
+  
+  .session a.active {
+    background-color: #716c6c;
+    color: rgb(31, 16, 250);
+  }
+  .main {
+    width: 500px;
+    margin: 0 auto;
+  }
+  footer {
+    background-color: rgb(53, 53, 55);
+    color: white;
+    padding: 35px 70px;
+    justify-self: none;
+    text-align: left;
+  }
+  footer a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 2px 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: right;
+    cursor: pointer; 
+  }
+  
+  footer a:hover {
+    background-color: #7b7a7d;
+    color: rgb(246, 243, 243);
+  }
+  
+ footer a.active {
+    background-color: #716c6c;
+    color: rgb(31, 16, 250);
+
+  }
